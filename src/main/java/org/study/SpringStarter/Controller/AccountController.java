@@ -236,7 +236,7 @@ public class AccountController {
             }
             model.addAttribute("account", account);
             return "account_views/change_password";
-        }
+        }   
         model.addAttribute("error", "Token error ");
         return "account_views/forgot_password";
 
